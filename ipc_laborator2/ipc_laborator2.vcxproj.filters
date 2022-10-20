@@ -51,5 +51,8 @@
     <ClCompile Include="lab4_5.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lab4_tema.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
