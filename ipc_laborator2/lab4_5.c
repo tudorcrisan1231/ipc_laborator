@@ -62,7 +62,7 @@ void test_palindrom(x) {
 		printf("Este palindrom");
 	}
 	else {
-		printf("NU Este palindrom");
+		printf("NU este palindrom");
 	}
 }
 
