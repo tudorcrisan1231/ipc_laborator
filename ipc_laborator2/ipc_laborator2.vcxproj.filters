@@ -54,5 +54,44 @@
     <ClCompile Include="lab4_tema.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lab5_1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab5_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab6_1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab6_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab6_3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab6_4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab6_5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab7_1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab7_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab8_1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab8_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab8_3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab8_4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
