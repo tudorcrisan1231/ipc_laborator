@@ -98,6 +98,62 @@ void nume_binar(char** tenis, int n) {
 	printf("\n");
 }
 
+void ord_crescLung(char** tenis, int n) {
+	int i, j;
+	char aux[21];
+	for (i = 0; i < n; i++)
+		for (j = i + 1; j < n; j++)
+			if ( strlen(*(tenis + i))  > strlen(*(tenis + j)) ) {
+				strcpy(aux, *(tenis + i));
+				strcpy(*(tenis + i), *(tenis + j));
+				strcpy(*(tenis + j), aux);
+			}
+
+	for (i = 0; i < n; i++) {
+		printf("%s ", *(tenis + i));
+	}
+	printf("\n");
+}
+
+void tabelPointeriLungime(char** tenis, int n) {
+	int* tabel;
+	int i;
+	tabel = (int*)malloc(n * sizeof(int));
+	
+	for (i = 0; i < n; i++) {
+		*(tabel + i) = strlen(*(tenis+i));
+	}
+
+	for (i = 0; i < n; i++) {
+		printf("%d ", *(tabel + i));
+	}
+	printf("\n");
+}
+
+void matriceMax(char** tenis, int n) {
+	int max = strlen(*(tenis + 0)) , i,j;
+
+	for (i = 0; i < n; i++) {
+		if (max < strlen(*(tenis + i)) ) {
+			max = strlen(*(tenis + i));
+		}
+	}
+
+	for (i = 0; i < max; i++) {
+		for (j = 0; j < max; j++) {
+			if ((i == max - 1 && j == 0) || (i == max - 1 && j == max - 1)) {
+				printf("%d ", max);
+			}
+			else {
+				printf("0 ");
+			}
+		}
+		printf("\n");
+	}
+	//printf("%d",max);
+	printf("\n");
+}
+
 
 int main() {
 	//fie un sir fomrat din max 100 nume de tenismeni, realizati un program C in care se citesc numele de tenismen de la tastatura apoi realizati un meniu interactiv cu urm optiuni
@@ -148,9 +204,9 @@ int main() {
 			case 2: ord_alf(tenis, n);  break;
 			case 3: ord_INValf(tenis, n);  break;
 			case 4: nume_binar(tenis,n); break;
-			case 5: break;
-			case 6: break;
-			case 7: break;
+			case 5: ord_crescLung(tenis, n);  break;
+			case 6: tabelPointeriLungime(tenis, n); break;
+			case 7: matriceMax(tenis, n);  break;
 			default: printf("opt gresita\n");
 		}
 	}
