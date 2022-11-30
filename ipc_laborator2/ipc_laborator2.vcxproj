@@ -152,6 +152,7 @@
     <ClCompile Include="lab9_1.c" />
     <ClCompile Include="lab9_2.c" />
     <ClCompile Include="lab9_3.c" />
+    <ClCompile Include="lab9_4.c" />
     <ClCompile Include="prob2.c" />
     <ClCompile Include="Source.c" />
     <ClCompile Include="tema_ipc.c" />
