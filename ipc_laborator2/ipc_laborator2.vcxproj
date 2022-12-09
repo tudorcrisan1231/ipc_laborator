@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="lab11.1.c" />
     <ClCompile Include="lab2_2.c" />
     <ClCompile Include="lab2_5.c" />
     <ClCompile Include="lab3_1.c" />
@@ -158,6 +159,7 @@
     <ClCompile Include="tema_ipc.c" />
     <ClCompile Include="lab5_1.c" />
     <ClCompile Include="lab7_1.c" />
+    <ClCompile Include="test1.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
