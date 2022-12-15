@@ -114,5 +114,8 @@
     <ClCompile Include="test1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lab12_1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
