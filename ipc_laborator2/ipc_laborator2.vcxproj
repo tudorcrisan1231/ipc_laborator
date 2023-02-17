@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="alextest.c" />
     <ClCompile Include="lab11.1.c" />
     <ClCompile Include="lab12_1.c" />
     <ClCompile Include="lab2_2.c" />
@@ -156,6 +157,7 @@
     <ClCompile Include="lab9_3.c" />
     <ClCompile Include="lab9_4.c" />
     <ClCompile Include="prob2.c" />
+    <ClCompile Include="simulare1.c" />
     <ClCompile Include="Source.c" />
     <ClCompile Include="tema_ipc.c" />
     <ClCompile Include="lab5_1.c" />

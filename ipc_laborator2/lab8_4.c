@@ -38,53 +38,53 @@
 //		printf("Dati opt dorita\n");
 //		scanf("%d", &opt);
 //		
-//		switch (opt)
-//		{
-//			case iesirea:
-//				exit(1);
-//				break;
-//			case opt1:
-//				for (i = 0; i < n; i++) {
-//					printf("%s ", materii[i]);
-//				}
-//				break;
-//			case opt2:
-//				for (i = 0; i < n; i++) {
-//					for (j = strlen(materii[i]); j >= 0; j--) {
-//						printf("%c", materii[i][j]);
-//					}
-//					printf(" ");
-//				}
-//				break;
-//			case opt3:
-//				for (i = 0; i < n; i++) {
-//					for (j = i; j < n; j++) {
-//						if (strcmp(materii[i], materii[j]) > 0) {
-//							strcpy(aux, materii[i]);
-//							strcpy(materii[i], materii[j]);
-//							strcpy(materii[j],aux);
-//						}
-//					}
-//				}
-//
-//				for (i = 0; i < n; i++) {
-//					printf("%s ", materii[i]);
-//				}
-//				break;
-//			case opt4:
-//				for (i = 0; i < n; i++) {
-//					for (j = 0; j < strlen(materii[i]); j++) {
-//						if (materii[i][j] == 'i')
-//							materii[i][j] ='*';
-//					}
-//				}
-//				for (i = 0; i < n; i++) {
-//					printf("%s ", materii[i]);
-//				}
-//				break;
-//			default:
-//				break;
-//		}
+		//switch (opt)
+		//{
+		//	case iesirea:
+		//		exit(1);
+		//		break;
+		//	case opt1:
+		//		for (i = 0; i < n; i++) {
+		//			printf("%s ", materii[i]);
+		//		}
+		//		break;
+		//	case opt2:
+		//		for (i = 0; i < n; i++) {
+		//			for (j = strlen(materii[i]); j >= 0; j--) {
+		//				printf("%c", materii[i][j]);
+		//			}
+		//			printf(" ");
+		//		}
+		//		break;
+		//	case opt3:
+		//		for (i = 0; i < n; i++) {
+		//			for (j = i; j < n; j++) {
+		//				if (strcmp(materii[i], materii[j]) > 0) {
+		//					strcpy(aux, materii[i]);
+		//					strcpy(materii[i], materii[j]);
+		//					strcpy(materii[j],aux);
+		//				}
+		//			}
+		//		}
+
+		//		for (i = 0; i < n; i++) {
+		//			printf("%s ", materii[i]);
+		//		}
+		//		break;
+		//	case opt4:
+		//		for (i = 0; i < n; i++) {
+		//			for (j = 0; j < strlen(materii[i]); j++) {
+		//				if (materii[i][j] == 'i')
+		//					materii[i][j] ='*';
+		//			}
+		//		}
+		//		for (i = 0; i < n; i++) {
+		//			printf("%s ", materii[i]);
+		//		}
+		//		break;
+		//	default:
+		//		break;
+		//}
 //	}
 //	return 0;
 //}
